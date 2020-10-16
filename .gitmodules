@@ -1,0 +1,9 @@
+[submodule "docs/book/src/capm3/cluster-api-provider-metal3"]
+	path = docs/book/src/capm3/cluster-api-provider-metal3
+	url = https://github.com/metal3-io/cluster-api-provider-metal3.git
+[submodule "docs/book/src/bmo/baremetal-operator"]
+	path = docs/book/src/bmo/baremetal-operator
+	url = https://github.com/metal3-io/baremetal-operator.git
+[submodule "docs/book/src/ipam/ip-address-manager"]
+	path = docs/book/src/ipam/ip-address-manager
+	url = https://github.com/metal3-io/ip-address-manager.git
