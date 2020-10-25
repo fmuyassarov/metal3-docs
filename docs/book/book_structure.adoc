@@ -2,7 +2,7 @@
 :toc: left
 :sectnums:
 
-image::../../images/metal3.png[]
+image::metal3.png[]
 
 The Metal³ project (pronounced: Metal Kubed) exists to provide
 components that allow you to do bare metal host management for
