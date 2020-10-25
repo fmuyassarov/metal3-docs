@@ -1,0 +1,30 @@
+= Metal³ - Bare Metal Host Provisioning for Kubernetes
+:toc: left
+:sectnums:
+
+image::../../images/metal3.png[]
+
+The Metal³ project (pronounced: Metal Kubed) exists to provide
+components that allow you to do bare metal host management for
+Kubernetes. Metal³ works as a Kubernetes application, meaning it runs on
+Kubernetes and is managed through Kubernetes interfaces.
+
+*Project Discussion*
+
+* https://groups.google.com/forum/#!forum/metal3-dev[Metal³ Development
+Mailing List]
+* https://kubernetes.slack.com/messages/CHD49TLE7[#cluster-api-baremetal]
+on Kubernetes Slack
+* Bi-Weekly Community Meetings every alternate Wednesday at 13:00 UTC on
+https://zoom.us/j/97255696401?pwd=ZlJMckNFLzdxMDNZN2xvTW5oa2lCZz09[Zoom]
+* Previous meetings: [
+https://docs.google.com/document/d/1d7jqIgmKHvOdcEmE2v72WDZo9kz7WwhuslDOili25Ls/edit[notes]
+|
+https://www.youtube.com/playlist?list=PL2h5ikWC8viJY4SNeOpCKTyERToTbJJJA[recordings]
+]
+
+include::https://raw.githubusercontent.com/fmuyassarov/baremetal-operator/master/docs/bmo_structure.adoc[]
+
+include::https://raw.githubusercontent.com/fmuyassarov/cluster-api-provider-metal3/master/docs/capm3_structure.adoc[]
+
+include::https://raw.githubusercontent.com/fmuyassarov/ip-address-manager/master/docs/ipam_structure.adoc[]
