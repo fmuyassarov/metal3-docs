@@ -1,0 +1,4 @@
+# Netlify settings
+[build]
+    command = "make bin && make build"
+    publish = "docs/user-guide/book"

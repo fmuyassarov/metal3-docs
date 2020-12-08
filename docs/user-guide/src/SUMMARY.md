@@ -1,10 +1,10 @@
 # Metal3 Project
 
 [Introduction](introduction.md)
-[Concepts](concepts.md)
+[Concepts]()
 
-- [Project Overview](project-overview.md)
-- [Install Baremetal Operator](install_bmo.md)
-- [Install Cluster-api-provider-metatl3](install_capm3.md)
+- [Project Overview]()
+- [Install Baremetal Operator]()
+- [Install Cluster-api-provider-metatl3]()
 
-[Community](community.md)
+[Community]()

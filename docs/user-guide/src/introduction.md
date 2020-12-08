@@ -12,11 +12,6 @@ metal environment.
 
 ## Why another provisioning tool?
 
-There are many existing tools already to manage bare metal hosts. However,
-Metal³ aims 
-
-Kubernetes native APIs to accomplish the task.
-
 ## Metal³ Community
 
 If you are interested in Metal³, please join our bi-weekly community meetings.
