@@ -1,13 +1,12 @@
-# Ensure Make is run with bash shell as some syntax below is bash-specific
 SHELL:=/usr/bin/env bash
 BIN_DIR := hack
 SOURCE_PATH := docs/user-guide
 MDBOOK_VERSION := v0.4.3
 MDBOOK_RELEASE_URL := https://github.com/rust-lang/mdBook/releases/download/$(MDBOOK_VERSION)/mdbook-$(MDBOOK_VERSION)-x86_64-unknown-linux-gnu.tar.gz
 
-## --------------------------------------
+## ----------------------
 ## Documentation tooling
-## --------------------------------------
+## ----------------------
 
 .PHONY: bin
 bin:
