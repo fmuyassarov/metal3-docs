@@ -8,6 +8,7 @@ SOURCE_PATH := docs/user-guide
 ## Documentation tooling
 ## ----------------------
 
+<<<<<<< HEAD
 .PHONY: bin
 bin:
 	curl -L $(MDBOOK_RELEASE_URL) | tar xvz -C $(BIN_DIR)
@@ -26,4 +27,23 @@ watch:
 
 .PHONY: clean
 clean:
+=======
+$(MDBOOK_BIN):
+	curl -L $(MDBOOK_RELEASE_URL) | tar xvz -C $(BIN_DIR)
+
+.PHONY: serve
+serve: $(MDBOOK_BIN)
+	$(MDBOOK_BIN) serve --open $(SOURCE_PATH)
+
+.PHONY: build
+build: $(MDBOOK_BIN)
+	$(MDBOOK_BIN) build $(SOURCE_PATH)
+
+.PHONY: watch
+watch: $(MDBOOK_BIN)
+	$(MDBOOK_BIN) watch --open $(SOURCE_PATH)
+
+.PHONY: clean
+clean: $(MDBOOK_BIN)
+>>>>>>> 618ec465a93ca4fd6974f71fb9bd88546ec0f2ad
 	$(MDBOOK_BIN) clean $(SOURCE_PATH)
