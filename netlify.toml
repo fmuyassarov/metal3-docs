@@ -1,4 +1,4 @@
 # Netlify settings
 [build]
-    command = "./hack/install_docker.sh"
+    command = "make build"
     publish = "docs/user-guide/book"
